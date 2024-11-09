@@ -1,0 +1,262 @@
+*{box-sizing: border-box;}
+body{
+    background-color:solid white;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Arial, Times, serif;
+    margin: 0;
+}
+#wrapper{
+    background-color:#eefafa;
+    color:#290516;
+    box-shadow: 5px 5px 5px #1f010f;
+    /* grid-template: 
+    "h"
+    "n"
+    "m"
+    "f"; */
+}
+
+header{
+    background-color:#9ccdbf ;
+    color: #210211;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url(./images/header_logo.gif);
+    padding: .5em 1em .5em 1em;
+}
+
+/* Named Grid Areas
+header { grid-area: h;}
+nav { grid-area: n;}
+main { grid-area: m;}
+aside { grid-area: a;}
+footer { grid-area: f;} */
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Arial, Times, serif;
+    text-shadow: 5px 5px 5px 5px  #6fa3b0;
+    margin-top: 0%;
+    font-size: 100%;
+    text-align: center;
+    
+}
+
+.h2title1{
+    color: #210211;
+    font-size: 150%;
+    text-align: center;
+}
+
+/* #home-gallery{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+#company-overview{
+  background-color:#c9dada;
+  color:#290516;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 1em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+nav li{
+    width: 20%;
+    min-width: 6em;
+    font-size: 110%;
+    text-align:center;
+    margin: .5em;
+    padding: .5em;
+    font-weight: bold;
+    display:table-row-group;
+    flex-wrap: wrap;
+    background-color: #9bcbcd;
+    }
+nav a{text-decoration: none;}
+nav a:link{color:#1f010f}
+nav a:visited{color: #6d0537;}
+nav a:hover{color:#eefafa}
+
+/* aside{ display:block; padding: 10px; border: 1px solid black;}
+img {max-width: 100%;
+    height: auto;float: right;
+} */
+
+main{
+    background-color: #eefafa;
+    padding: 1px 20px 20px 20px;
+    min-height: 300px;
+    display: block;
+}
+
+footer{
+    background-color:#eefafa;
+    padding: 15px;
+    text-align:left;
+    font-size:x-small;
+    font-style:italic;
+}
+
+/* @media (min-width:38em){
+    #wrapper{grid-template:auto
+                " h   h " 
+                " n   n "
+                " m   a "
+                " f   f "
+                / 60% 40%;}
+    aside{display: block;} 
+}
+@media(min-width: 65em;){
+    nav ul {display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;}
+    #wrapper {grid-template: 
+                " h  h  h " 
+                " n  m  a "
+                " f  f  f "
+                / 150px 1fr 30%;}
+} */
+
+@media (min-width: 800px){
+        #wrapper{
+                width: 80%;
+                margin:auto;
+                display: grid;
+                grid-template-columns: 200px auto;
+                grid-template-rows: 130px auto;
+        }
+        header{grid-row:1/2; grid-column: 1/3;}
+        nav{grid-row:2/4; grid-column: 1/2;}
+        main{grid-row:2/3; grid-column: 2/3;}
+        /* aside{grid-row: 2/3; grid-column: 3/4;} */
+        footer{grid-row:3/4; grid-column: 1/2;}
+        nav ul{flex-direction:column;}
+        h1{font-size: 3.5em; padding-left: 120px;}
+        /* aside img{width: 100%;} */
+    }
+
+    /* main img{width: 450px; height:auto;} */
+
+    body {
+        font-family: sans-serif; /* Use a clean font */
+      }
+  
+      h2 {
+        text-align: center;
+        color: #0553a8; 
+      }
+  
+      p {
+        text-align: left;
+        color: #210211;
+      }
+  
+      .container {
+        border: 2px solid #0c473e;
+        background-color: #1c917e;
+        color: white;
+        width: 300px;
+        margin: 0 auto; /* Center the container */
+        padding: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+      }
+  
+      .popup {
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #0c473e;
+        padding: 20px;
+        background-color: white;
+        z-index: 100;
+        border-radius: 10px; /* Add rounded corners to the popup */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      }
+  
+      #form input, 
+      #form textarea {
+        width: calc(100% - 22px); /* Account for padding and border */
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+      }
+      #signupmessage{
+        text-align:initial
+        color: 
+      
+      }
+  
+      .button1, .button2 {
+        background-color:#1c917e;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 5px;
+      }
+  
+      .hidden { 
+        display: none; 
+      }
+  
+      #thankYou {
+        text-align: center;
+        font-size: 18px;
+        color: #1c917e; 
+      }
+
+      /*nav bar styling to make it hamburger menu, from .hamburger to below nav ul li */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: black;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: none; /* Hide the menu initially */
+    }
+
+    nav ul li {
+      margin-bottom: 10px; 
+    }
+
+    /* Show the menu when the hamburger is clicked */
+    .hamburger:focus + ul, 
+    .hamburger:hover + ul {
+      display: block;
+    }
+     /*nav bar styling to make it hamburger menu, from top .hamburger to nav ul li */
+
+     #main-banner{
+        width: 70%;  /* Set the image width to 50% of its container */
+        height: auto; /* Maintain aspect ratio */
+        position: center;
+      }
+     

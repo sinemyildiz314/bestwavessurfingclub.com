@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Discover Surfing Destinations in Turkish Aegeon Sea</title>
+    <meta charset="UTF-8">
+    <link href="bestwaves.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Best Waves Surfing Club</h1>
+        <!-- <img src="./images/header.jpg" alt="Windsurf" width="500" height="100"> 
+         put image behind the title, image save as gif and style on css-->
+    </header>
+
+<nav>
+    <div class="hamburger" tabindex="0">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+    </div>
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="surfs.html">Surfs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+<img id="main-banner" src="./images/windsurf5.jpeg" alt="Wind surfing two man and sea view">
+<h2 class="h2title1">Welcome to BWSC</h2>
+    <p>Open for 12 months BWSC offers training and rental services all year round. Stay tuned for new offerings and upcoming events throughout the year. For more subscribe below.</p>
+    <span class="page-wrapper">
+        <div class="container" onclick="this.style.display='none'; document.getElementById('popup').style.display = 'block';">Join Our Newsletter!</div>
+        <div id="popup" class="popup">
+          <form id="form" onsubmit="this.style.display='none'; document.getElementById('thankYou').style.display='block'; return false;">
+            <p id="signupmessage">Subscribe to be informed about discounts and special events.</p>
+            <input class="name" type="text" placeholder="Name"><br>
+            <input class="surname" type="text" placeholder="Surname"><br>
+            <input class="email" type="email" placeholder="Email"><br>
+            <textarea placeholder="Comment"></textarea><br>
+            <button class="button1" type="submit">Join Now</button>
+            <button class="button2" type="button" onclick="document.getElementById('popup').style.display = 'none';">Close</button>
+          </form>
+          <div id="thankYou" style="display:none;">Thank you for signing up!</div>
+        </div>
+      </span>
+
+      <br><br>
+
+<div id="home-gallery">
+    <img src="./images/Windsurf0.jpeg" width="200"  height="150" alt="Surfing in the sea">
+    <h3>Windsurf Lessons</h3>
+    <p>Beginner or a pro, our team is ready to provide lessons in multiple languages.</p>
+
+    <img src="./images/kitesurf1.jpeg" width="200"  height="150" alt="Kitesurfing in the sea">
+    <h3>Kitesurf Lessons</h3>
+    <p>Kite lessons with the latest equipment from DuoTone Kiteboarding!</p>
+
+    <img src="./images/wingfoil1.jpeg" width="200"  height="150" alt="Wing foiling in the sea">
+    <h3>Wing Foil Lessons</h3>
+    <p>Kite lessons with the latest equipment from DuoTone Kiteboarding!</p>
+
+    <img src="./images/windsurf2.jpeg" width="200"  height="150" alt="surfing in the sea">
+    <h3>Events</h3>
+    <p>Check out our event calendar for upcoming events this season at BWSC.</p>
+
+    <img src="./images/kidscamp1.jpeg" width="200"  height="150" alt="siz kids posing together and smiling">
+    <h3>Kids Camp</h3>
+    <p>Over 16 years of experience in organizing kinds camps for young surfers!</p>
+
+    <img src="./images/travelinfor.jpeg" width="200"  height="150" alt="Travel information to the club">
+    <h3>Travel Information</h3>
+    <p>Check out our event calendar for upcoming events this season at BWSC.</p>
+</div>
+
+<div id="company-overview">
+    <h3>More than 25 years in the business</h3>
+    BWSC is more than just a windsurf school, it's an outdoor sports centre.
+    Ranked among the world's top 5 and Europe's top 3 centers of its kind, BWSC was established in 1999 in th best location on Alacati's now-famous windsurf bay. 
+    BWSC is the area's first and now the biggest activity centre of its kind.
+    <br><br>
+    The BWSC windsurf school is a certified member of VDWS and the TYF.
+    Over the last 25 seasons thousands of foreign and Turkish guests
+    have successfully trained with our experienced and friendly
+    VDWS certified instructors in English, German, French, Italian, Spanish and Turkish.
+    <br><br>
+    <img id="overview-image" src="./images/companyinfo.jpeg" width="200"  height="150" 
+    alt="two kids smiling inside the sea">
+</div>
+
+</main>
+
+<!-- <aside>
+    <img src="./images/image1.jpeg" alt="Wind surfing man in the sea">
+    <h3>Discover Best Waves Surfing Club Activities</h3>
+    <p>There are various activities in the area during 
+        the summer time, which is nearly the half of the year 
+        in the area. Don't wait to sign up.</p>
+</aside> -->
+
+<footer>
+    Copyright &copy; 2024 bestwaves.com
+</footer>
+</div>
+</body>
+</html>
