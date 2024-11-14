@@ -3,13 +3,12 @@
 <head>
     <title>Best Waves Surfing Club</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/indexstyles.css" rel="stylesheet">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 </head>
 <body>
 <div id="wrapper">
     <header>
-        <!-- <img src="images/logo1.gif" alt="My Logo"> -->
         <h1>BWSC</h1>
     </header>
     <nav>
@@ -23,13 +22,83 @@
 <main>
     <h2 class="h2title1">Welcome to BWSC</h2>
     <img src="./images/windsurf5.jpeg" alt="Wind surfing two man and sea view">
-    <p>Open for 12 months BWSC offers training and rental services all year round. 
-        Stay tuned for new offerings and upcoming events throughout the year. 
+    <p class="homefirstpg">Open for 12 months BWSC offers training and rental services all year round.
+        Stay tuned for new offerings and upcoming events throughout the year.
         For more subscribe below.</p>
+    <br><br>
+
+<link href="./styles/signupstyle.css" rel="stylesheet">
+    <div class="container" onclick="this.style.display='none'; document.getElementById('popup').style.display = 'block';">Join Our Newsletter!</div>
+    <div id="popup" class="popup">
+        <form id="form" onsubmit="this.style.display='none'; document.getElementById('thankYou').style.display='block'; return false;">
+            <p id="signupmessage">Subscribe to be informed about discounts and special events.</p>
+            <input class="name" type="text" placeholder="Name"><br>
+            <input class="surname" type="text" placeholder="Surname"><br>
+            <input class="email" type="email" placeholder="Email"><br>
+            <textarea placeholder="Comment"></textarea><br>
+            <button class="button1" type="submit">Join Now</button>
+            <button class="button2" type="button" onclick="document.getElementById('popup').style.display = 'none';">Close</button>
+        </form>
+    <div id="thankYou" style="display:none;">Thank you for signing up!</div>
+    </div>
+
+<br><br>
+
+        <div class="gallery">
+
+            <div class="gallery-item">
+                <img src="./images/Windsurf0.jpeg" alt="Surfing in the sea">
+                <div class="gallery-text">
+                    <h3>Windsurf Lessons</h3>
+                    <p>Beginner or a pro, our team is ready to provide
+                        lessons in multiple languages.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/kitesurf1.jpeg" alt="Kitesurfing in the sea">
+                <div class="gallery-text">
+                    <h3>Kitesurf Lessons</h3>
+                    <p>Kite lessons with the latest equipment from DuoTone Kiteboarding!</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/wingfoil1.jpeg" alt="Wing foiling in the sea">
+                <div class="gallery-text">
+                    <h3>Wing Foil Lessons</h3>
+                    <p>Wing Foil lessons with the latest equipment FIXFIXFIIIIIIX</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/windsurf2.jpeg" alt="Surfing in the sea">
+                <div class="gallery-text">
+                    <h3>Events</h3>
+                    <p>Check out our event calendar for upcoming events this season at BWSC.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/kidscamp1.jpeg" alt="Kids posing and smiling">
+                <div class="gallery-text">
+                    <h3>Kids Camp</h3>
+                    <p>Over 16 years of experience in organizing kinds camps for young surfers!</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="./images/travelinfor.jpeg" alt="Travel information to the club">
+                <div class="gallery-text">
+                    <h3>Travel Information</h3>
+                    <p>Check out our event calendar for upcoming events this season at BWSC.</p>
+                </div>
+            </div>
+        </div>
 </main>
-<footer>
-    Copyright &copy; 2024 bestwavessurfingclub
-</footer>
+    <footer>
+        Copyright &copy; 2024 bestwavessurfingclub
+    </footer>
 </div>
-</body>
-</html>
+    </body>
+    </html>
