@@ -16,16 +16,21 @@ body {
 header {
   background-color: #9bcbcd;
   background-repeat: no-repeat;
-  padding: .5em 1em .5em 6em;
+  padding: .5em 1em .5em 2em;
   height: 80px;
-  display: inline-block;
+  display: block;
   width: 100%;
   /* background-image: url(../images/logodark.png); */
 }
 
 .logo {
 height: 100%;
+}
 
+.logo-text {
+  line-height: 80px;
+  vertical-align: top;
+  display: inline-block;
 }
 
 h1 {
