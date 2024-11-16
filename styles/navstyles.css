@@ -1,0 +1,81 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block; /* Display list items horizontally */
+    position: relative; /* To position submenus */
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Submenu styles */
+  nav li ul {
+    display: none; /* Hide submenus by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f3ebe5;
+  }
+  
+  nav li:hover ul {
+    display: block; /* Show submenu on hover */
+  }
+  
+  /* Hamburger menu styles */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+  }
+  
+  @media (max-width: 425px) {
+    .hamburger {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #f3ebe5;
+    }
+  
+    nav li {
+      display: block;
+      text-align: center;
+    }
+  
+    /* Submenu styles for hamburger menu */
+    nav li ul {
+      position: static; /* Remove absolute positioning */
+    }
+  
+    nav li:hover ul {
+      display: none; /* Disable hover effect for submenus */
+    }
+  
+    nav li.show ul {
+      display: block; /* Show submenu when parent li has "show" class */
+    }
+  
+    nav.show ul {
+      display: block;
+    }
+  }
