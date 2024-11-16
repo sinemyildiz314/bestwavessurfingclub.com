@@ -14,10 +14,18 @@ body {
 }
 
 header {
-  background-color: #1a3f3d;
+  background-color: #9bcbcd;
   background-repeat: no-repeat;
   padding: .5em 1em .5em 6em;
-  background-image: url(../images/logodark.png);
+  height: 80px;
+  display: inline-block;
+  width: 100%;
+  /* background-image: url(../images/logodark.png); */
+}
+
+.logo {
+height: 100%;
+
 }
 
 h1 {
@@ -140,7 +148,7 @@ footer {
   }
 
   header {
-    padding: 1em;
+    padding: 0em;
   }
 
   h1 {
