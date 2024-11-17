@@ -3,29 +3,54 @@
 <head>
     <title>Best Waves Surfing Club - Contact</title>
     <meta charset="UTF-8">
-    <link href="./styles/indexstyles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/indexstyles.css" rel="stylesheet">
+    <link href="./styles/navstyles.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
     <header>
-        <img class="logo" src="./images/logo001.jpg">
-        <span class="logo-text">Best Waves Surfing Club</span>
+        <img class="logo" src="../images/logo.png">
+        <nav>
+            <div class="hamburger">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a class="sub-menu" href="surfs.html">Surfs</a>
+                <ul>
+                  <li><a href="./submenu_htmls/windsurf.html">Windsurf</a></li>
+                  <li><a href="./submenu_htmls/kitesurf.html">Kitesurf</a></li>
+                  <li><a href="./submenu_htmls/wingfoil.html">Wing Foil</a></li>
+                  <li><a href="./submenu_htmls/kidsclub.html">Kids Club</a></li>
+                </ul>
+              </li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
     </header>
 
-<nav>
-    <!-- <div class="hamburger" tabindex="0">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-    </div> -->
-     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="surfs.html">Surfs</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector("nav");
+        const navLinks = document.querySelectorAll("nav li");
+        
+        hamburger.addEventListener("click", () => {
+          nav.classList.toggle("show");
+        });
+        
+        // Add click event listeners to each navigation link
+        navLinks.forEach(link => {
+          link.addEventListener("click", () => {
+            // Toggle the "show" class on the clicked link
+            link.classList.toggle("show");
+          });
+        });
+        </script>
 
     <main>
         <h2> This is the contact page fsgdhjfkdbmfjvbjkfdn</h2>
