@@ -85,3 +85,20 @@ table {
     vertical-align: middle; /* Align logo with text */
   }
 
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
+  .column img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures the image takes up the full width available */
+  }
+
+  .column p {
+    width: 100%;
+  }
