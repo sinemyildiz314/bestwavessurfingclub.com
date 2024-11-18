@@ -97,8 +97,11 @@ table {
     max-width: 100%;
     height: auto;
     display: block; /* Ensures the image takes up the full width available */
+    border-radius: 80%; /* This creates the circular shape */
+    overflow: hidden; /* Ensures the image is clipped to the circle */
   }
 
+
   .column p {
-    width: 100%;
+    width: 70%;
   }
