@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #f3ebe5;
+  background-color: #f2f4ee;
   background-repeat: no-repeat;
   padding: .5em 1em .5em 2em;
   height: 80px;
@@ -32,11 +32,22 @@ height: 100%;
   display: inline-block;
 }
 
+h1, h2, h3 {
+  clear: both;
+}
+
 h1 {
   font-family: Georgia, 'Times New Roman', Arial, Times, serif;
   text-shadow: 5px 5px 5px 5px #1a3f3d;
-  margin-top: .25em;
-  margin-left: 8em;
+  /* margin-top: .25em;
+  margin-left: 8em; */
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Arial, Times, serif;
+  text-shadow: 5px 5px 5px 5px #1a3f3d;
+  float: left;
+  clear: both;
 }
 
 main {
@@ -44,6 +55,13 @@ main {
   padding: 1px 20px 20px 20px;
   min-height: 300px;
   display: block;
+  text-align: left;
+}
+
+p {
+  display: block;
+  margin-left: 0;
+  clear: both;
 }
 
 main img {
@@ -210,9 +228,9 @@ footer {
   margin-bottom: 20px;
 }
 .recommendations {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-  display: grid; grid-template-columns: 1fr; grid-template-rows: auto;
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: auto;
   gap: 10px;
 }
 .recommendations a {
@@ -229,4 +247,5 @@ footer {
   width: 50%;
   display: block;
   float: left;
+  margin-right: 20px;
 }
