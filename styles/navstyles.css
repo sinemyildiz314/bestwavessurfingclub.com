@@ -1,5 +1,6 @@
 nav {
   display: inline-block;
+  padding-bottom: 20px;
 }
 
 nav ul {
@@ -17,6 +18,16 @@ nav ul {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
+    color: #333;
+  }
+
+  nav a:hover {
+    color: #c0392b;
+  }
+  
+  nav a:active {
+    color: #e74c3c; 
   }
   
   /* Submenu styles */
@@ -45,17 +56,11 @@ nav ul {
     margin: 5px auto;
     background-color: #333;
   }
-
-
   
   @media (max-width: 520px) {
    
     .hamburger {
       display: block;
-    }
-    
-    .sub-menu {
-      
     }
   
     nav ul {
