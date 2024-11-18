@@ -3,18 +3,55 @@ table {
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
+    overflow-x: auto; /* Enables horizontal scrolling for smaller screens */
+    table-layout: fixed; /* Key for distributing column width evenly */
   }
 
   th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    word-wrap: break-word; /* Allows long words to break and wrap within the cell */
   }
 
   th {
     background-color: #f2f2f2;
+    position: sticky; /* Keeps header in place while scrolling */
+    top: 0; 
   }
-  
+
+
+  @media screen and (max-width: 600px) {
+    table {
+      display: block; /* Makes the table stack vertically */
+      width: 100%; 
+    }
+    thead {
+      display: none; /* Hides the table header */
+    }
+    tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+    td {
+      display: block; 
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      position: relative; /* Allows for positioning of the pseudo-element */
+      padding-left: 50%; /*  Adds space for the pseudo-element */
+    }
+    td::before {
+      content: attr(data-label); /*  Gets the label from the data-label attribute */
+      position: absolute;
+      left: 10px;
+      width: 45%; 
+      padding-right: 10px; 
+      font-weight: bold;
+      white-space: nowrap; /* Prevents the label from wrapping */
+    }
+  }
+
   nav ul ul {
     display: none; /*Hide the sub-menu initially*/
     position: absolute;
@@ -47,3 +84,4 @@ table {
     margin-right: 5px; /* Space between logo and text */
     vertical-align: middle; /* Align logo with text */
   }
+

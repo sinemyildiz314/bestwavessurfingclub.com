@@ -229,3 +229,44 @@ footer {
 .homefirstpg {
   margin-bottom: 200px;
 }
+
+/* Contact page styles below */
+
+.contact-info {
+  margin-bottom: 20px;
+}
+.map {
+  margin-bottom: 33px;
+}
+
+.map img {
+  width: 05%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+.travel-info {
+  margin-bottom: 20px;
+}
+.recommendations {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  display: grid; grid-template-columns: 1fr; grid-template-rows: auto;
+  gap: 10px;
+}
+.recommendations a {
+  display: block;
+  background: #f9f9f9;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);}
+  
+.recommendations img {
+  height: auto;
+  width: 50%;
+  display: block;
+  float: left;
+}
