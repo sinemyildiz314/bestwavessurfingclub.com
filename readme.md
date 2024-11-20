@@ -52,6 +52,37 @@ Github-repo: URL:
     * sitemap.png
 ![Alt text for image](./images/sitemap.png)
 ## Text-based (including sitemap.xml)
+        * created sitemap.xml file and added in the project folder.
 ## Loom video: overview of the product (website) created
+        * TBD
 
 # 3. Wireframe
+
+# 4. Resources
+
+* Development:
+   - UCD Course Materials: slides, class practices, and live examples.
+   - edureka.co: git tutorials.
+   - MND: play, examine and research certain functions about html & css
+   - AI tools: Gemini, ChatGPT to look up one liner codes and different styling ideas.
+   - codepen.io: sectional code trials
+   - color design: color.adobe.com, webdevfooundations.net/color, and chrome dev tool.
+   - w3schools.com
+   - Google dev tools
+   - Add: SITE FUNCTIONS AND how and what I designed, transition, YouTube video, email, call, location links, clickable pages...
+
+* Testing Tools:
+  - diffchecker.com
+  - css validator
+  - html validator
+  - Rendering: Chrome, Edge, and Firefox 
+
+* Publish:
+  - VS Code: git linked and pushed to GitHub for hosting
+  - stored files locally on developer's computer and hosted extarnally as a github.io page. 
+
+# 5. Further Improvements
+* Due to time constraints, these are the remaining developments on the site which I will be applying. For any further advice please email: sinemyildiz314@gmail.com.
+* Hamburger styling: adding sub-menu arr
+
+
