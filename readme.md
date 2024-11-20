@@ -1,4 +1,12 @@
-# Website Planning Analysis Sheet
+Github-pages: URL:
+        https://sinemyildiz314.github.io/bestwavessurfingclub.com/
+
+Github-repo: URL:
+        https://github.com/sinemyildiz314/bestwavessurfingclub.com
+
+
+# 1. Planning Analysis Sheet
+
 ## 1. Website Name: Best Waves Surfing Club (BWSC)
 ## 2. Website Purpose: 
        - Provide information about BWSC and its services (surf lessons, kids club, etc.)
@@ -21,7 +29,7 @@
 | events.html | Event calendar, descriptions of upcoming events, photo galleries from past events | Keep visitors informed about events and promote community engagement. |
 | contact.html | Contact information, location map, travel information | Provide various ways for visitors to contact BWSC and offer essential travel information. |
 
-## 5. Website Design
+## 5. Website Design:
     - Layout: Clean and modern design with a focus on visual appeal. Use of high-quality images and a video to showcase surfing experience in Alacati.
     - Navigation:
         - Clear and intuitive navigation menu with a hamburger menu for mobile responsiveness.
@@ -31,10 +39,17 @@
     - Typography: Choose fonts that are easy to read and reflect the brand's personality.
     - Mobile Responsiveness: Ensure the website is fully responsive and functions well on all devices (smartphones, tablets, desktops).
 
-## 6.Functionality:
+## 6. Functionality:
     - Newsletter Signup: A pop-up form to capture leads (name, surname, email, comment).
     - Image Gallery: Visually engaging gallery with high-quality images and links to relevant pages.
     - Contact Form: Implemented a contact options on the contact.html page, providing users with the following options:
        - Direct Email: Clicking the "Email Me" link opens the user's default email client.
        - Phone Call: A clickable phone number link allows users to initiate a call directly from the page.
        - WhatsApp: A WhatsApp contact button is available on all pages for instant messaging."
+
+# 2. Site Map
+## Visual Diagram
+## Text-based (including sitemap.xml)
+## Loom video: overview of the product (website) created
+
+# 3. Wireframe
