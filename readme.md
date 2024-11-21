@@ -76,6 +76,7 @@ Github-repo: URL:
   - Page Layout: used css for page layout
   - Images & Multimedia: configured meaningful alternate texts, taking into account search engine robots accessibility to the texts abd hyperlinks contained within multimedia
   - Google's HTTPS Protocol: Applied on the site 
+  - Robots.txt file added
 
 * Testing Tools:
   - diffchecker.com
