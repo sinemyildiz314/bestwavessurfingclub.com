@@ -1,0 +1,4 @@
+﻿User-agent: * 
+Disallow: 
+
+Sitemap: /Users/sinemyunus/Desktop/sinemyildiz/Desktop/bwsc/sitemap.xml
