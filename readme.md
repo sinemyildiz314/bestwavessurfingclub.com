@@ -70,6 +70,12 @@ Github-repo: URL:
    - w3schools.com
    - Google dev tools
    - Add: SITE FUNCTIONS AND how and what I designed, transition, YouTube video, email, call, location links, clickable pages...
+   - Sitemap: homepage has clickable images, added as a map...
+* SEO:
+  - Linking: text navigation hyperlinks, verified fuctionality of all hyperlinks 
+  - Page Layout: used css for page layout
+  - Images & Multimedia: configured meaningful alternate texts, taking into account search engine robots accessibility to the texts abd hyperlinks contained within multimedia
+  - Google's HTTPS Protocol: Applied on the site 
 
 * Testing Tools:
   - diffchecker.com
