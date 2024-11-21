@@ -58,6 +58,13 @@ Github-repo: URL:
 
 # 3. Wireframe
 
+        * Created wireframe for a sample page of my site (i.e.homepage).
+
+![Alt text for image](./images/wireframe/Wireframe%201%20Mobile-First%20(Collapsed%20Menu).png)
+![Alt text for image](./images/wireframe/Wireframe%202%20Desktop%20View.png)
+![Alt text for image](./images/wireframe/Wireframe%203%20Focus%20on%20Surfs%20Dropdown%20Interaction.png)
+![Alt text for image](./images/wireframe/Wireframe%204%20%20User%20Flow%20with%20Arrows.png)
+
 # 4. Resources
 
 * Development:
