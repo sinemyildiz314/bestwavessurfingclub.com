@@ -90,7 +90,7 @@ Github-repo: URL:
 
 * Testing Tools:
   - diffchecker.com
-  - css validator
+  - css validator 
   - html validator
   - Rendering: Chrome, Edge, Opera, Firefox, etc.
   - Screaming Frog SEO Spider (100% crawled, no issues)

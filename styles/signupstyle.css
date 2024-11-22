@@ -35,9 +35,7 @@
     box-sizing: border-box; /* Include padding and border in element's total width and height */
   }
   #signupmessage{
-    text-align:initial
-    color: 
-  
+    text-align:initial; 
   }
 
   .button1, .button2 {
