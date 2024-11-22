@@ -41,12 +41,13 @@ Github-repo: URL:
 * Accessibility: Make sure the website is reaching accessibility standards by using symentic HTML and ARIA across its design. Such as when adding images, forms, CTA buttons etc.  
 
 ## 6. Functionality:
- *    Newsletter Signup: A pop-up form to capture leads (name, surname, email, comment).
-    - Image Gallery: Visually engaging gallery with high-quality images and links to relevant pages.
-    - Contact Form: Implemented a contact options on the contact.html page, providing users with the following options:
-       - Direct Email: Clicking the "Email Me" link opens the user's default email client.
-       - Phone Call: A clickable phone number link allows users to initiate a call directly from the page.
-       - WhatsApp: A WhatsApp contact button is available on all pages for instant messaging."
+ * Newsletter Signup: A pop-up form to capture leads (name, surname, email, comment).
+ * Image Gallery: Visually engaging gallery with high-quality images and links to relevant pages.
+ * Contact Form: Implemented a contact options on the contact.html page, providing users with the following options:
+     - Direct Email: Clicking the "Email Me" link opens the user's default email client.
+     - Phone Call: A clickable phone number link allows users to initiate a call directly from the page.
+     - WhatsApp: A WhatsApp contact button is available on all pages for instant messaging.
+     - Map: Interactive map with embedded links to multiple locations. Click on the hotel logo, restaurant icons, or direction markers to access specific information or directions.
 
 # 2. Site Map
 ## Visual Diagram inside ./images/
