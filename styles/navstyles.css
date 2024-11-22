@@ -19,7 +19,7 @@ nav a {
   padding: 10px;
   text-decoration: none;
   font-weight: bold;
-  color: #333;
+  color: #04182e;
   transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 nav a:active {
-  color: #0b1185;
+  color: #052b4f;
   transform: translateY(1px);
 }
 
@@ -59,12 +59,12 @@ nav li ul li {
 }
 
 nav li ul li:hover {
-  background-color: #0e1a89;
+  background-color: #0e5e80;
   color: white;
 }
 
 nav li ul li a:hover {
-  color: white;
+  color: #f9f9f9;
 }
 
 /* Hamburger menu styles */
@@ -119,7 +119,7 @@ nav li ul li a:hover {
     display: block;
     padding: 15px 10px;
     text-decoration: none;
-    color: #333;
+    color: #04182e;
   }
 
   /* Styles for main menu items with submenus */
