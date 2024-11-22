@@ -38,6 +38,7 @@ Github-repo: URL:
 * Color Scheme: Use colors that evoke the ocean, beach, and surfing lifestyle (blues, greens, whites, sandy tones). While testing its color contrast for accessibility and color blindness etc.
 * Typography: Choose fonts that are easy to read and reflect the brand's personality.
 * Mobile Responsiveness: Ensure the website is fully responsive and functions well on all devices (smartphones, tablets, desktops).
+* Accessibility: Make sure the website is reaching accessibility standards by using symentic HTML and ARIA across its design. Such as when adding images, forms, CTA buttons etc.  
 
 ## 6. Functionality:
  *    Newsletter Signup: A pop-up form to capture leads (name, surname, email, comment).
