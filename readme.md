@@ -48,6 +48,7 @@ Github-repo: URL:
      - Phone Call: A clickable phone number link allows users to initiate a call directly from the page.
      - WhatsApp: A WhatsApp contact button is available on all pages for instant messaging.
      - Map: Interactive map with embedded links to multiple locations. Click on the hotel logo, restaurant icons, or direction markers to access specific information or directions.
+ * Browser Compatibility: Thoroughly tested the website's compatibility on major browsers (Chrome, Firefox, Edge, Safari, Opera) using a combination of manual testing and BrowserStack's comprehensive browser testing platform.  The website is 100% responsive and performs optimally across all tested environments. 
 
 # 2. Site Map
 ## Visual Diagram inside ./images/
