@@ -92,14 +92,19 @@ Github-repo: URL:
   - diffchecker.com
   - css validator
   - html validator
-  - Rendering: Chrome, Edge, and Firefox 
+  - Rendering: Chrome, Edge, Opera, Firefox, etc.
+  - Screaming Frog SEO Spider (100% crawled, no issues)
 
 * Publish:
   - VS Code: git linked and pushed to GitHub for hosting
   - stored files locally on developer's computer and hosted extarnally as a github.io page. 
 
 # 5. Further Improvements
-* Due to time constraints, these are the remaining developments on the site which I will be applying. For any further advice please email: sinemyildiz314@gmail.com.
-* Hamburger styling: adding sub-menu arr
+   Website enhancements in progress! (Given the time available, above's a summary of completed work and below are upcoming tasks):
+
+* Events: Bring past events to life with an engaging image gallery. This will give potential visitors a better sense of our club's activities and community.
+* Surfs: Showcase the excitement of our surf classes! I'll add more photos, videos, and even demo videos to capture attention and encourage sign-ups.
+* Layout: I'm exploring ways to make the website easier to navigate and more visually appealing, including the potential addition of sidebars for better content organization.
+* Accessibility: Everyone should be able to enjoy the website. I'm committed to improving accessibility by using ARIA standards and adding features like skip links for easier keyboard navigation.
 
 
