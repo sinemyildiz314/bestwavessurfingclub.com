@@ -5,6 +5,7 @@ Github-repo: URL:
         https://github.com/sinemyildiz314/bestwavessurfingclub.com
 
 
+
 # 1. Planning Analysis Sheet
 
 ## 1. Website Name: Best Waves Surfing Club (BWSC)
@@ -57,7 +58,7 @@ Github-repo: URL:
 ## Text-based (including sitemap.xml)
         * created sitemap.xml file and added in the project folder.
 ## Loom video: overview of the product (website) created
-        * TBD
+        * https://www.loom.com/share/908ae57df4b246c8b8e84bdf3235f95e?sid=d29c5b48-fd57-4601-b781-b1e2f34b6321  
 
 # 3. Wireframe
 
