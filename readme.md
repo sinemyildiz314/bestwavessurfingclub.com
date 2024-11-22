@@ -38,7 +38,7 @@ Github-repo: URL:
 * Color Scheme: Use colors that evoke the ocean, beach, and surfing lifestyle (blues, greens, whites, sandy tones). While testing its color contrast for accessibility and color blindness etc.
 * Typography: Choose fonts that are easy to read and reflect the brand's personality.
 * Mobile Responsiveness: Ensure the website is fully responsive and functions well on all devices (smartphones, tablets, desktops).
-* Accessibility: Make sure the website is reaching accessibility standards by using symentic HTML and ARIA across its design. Such as when adding images, forms, CTA buttons etc. Color contrasts ratio measured (i.e. 11.84:1) and passed. View: https://webaim.org/resources/contrastchecker/?fcolor=333333&bcolor=EEFAFA.  
+* Accessibility: Make sure the website is reaching accessibility standards by using semantic HTML and ARIA across its design. Such as when adding images, forms, CTA buttons etc. Color contrasts ratio measured (i.e. 11.84:1) and passed. View: https://webaim.org/resources/contrastchecker/?fcolor=333333&bcolor=EEFAFA.  
 
 ## 6. Functionality:
  * Newsletter Signup: A pop-up form to capture leads (name, surname, email, comment).
@@ -69,7 +69,6 @@ Github-repo: URL:
 ![Alt text for image](./images/wireframe/Wireframe%204%20%20User%20Flow%20with%20Arrows.png)
 
 # 4. Resources
-
 * Development:
    - UCD Course Materials: slides, class practices, and live examples.
    - edureka.co: git tutorials.
@@ -81,6 +80,8 @@ Github-repo: URL:
    - Google dev tools
    - Add: SITE FUNCTIONS AND how and what I designed, transition, YouTube video, email, call, location links, clickable pages...
    - Sitemap: homepage has clickable images, added as a map...
+   - By placing the <div class="hamburger"> and its contents inside the <label>, I ensure that the hamburger icon is part of the clickable label, making my menu function as expected.
+
 * SEO:
   - Linking: text navigation hyperlinks, verified fuctionality of all hyperlinks 
   - Page Layout: used css for page layout
@@ -105,6 +106,9 @@ Github-repo: URL:
 * Events: Bring past events to life with an engaging image gallery. This will give potential visitors a better sense of our club's activities and community.
 * Surfs: Showcase the excitement of our surf classes! I'll add more photos, videos, and even demo videos to capture attention and encourage sign-ups.
 * Layout: I'm exploring ways to make the website easier to navigate and more visually appealing, including the potential addition of sidebars for better content organization.
-* Accessibility: Everyone should be able to enjoy the website. I'm committed to improving accessibility by using ARIA standards and adding features like skip links for easier keyboard navigation.
+* Accessibility: Everyone should be able to enjoy the website. I'm committed to improving accessibility by using ARIA standards and adding features like skip links for easier keyboard navigation. 
+
+
+
 
 
